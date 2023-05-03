@@ -1078,7 +1078,7 @@ window.__require = function e(t, n, o) {
       GAME_OVER_BOOL: !0,
       publicGameBool: !1,
       ranLinkData: null,
-      recGameData: null,
+      recGameData: 0,
       InfoData: null,
       endShow0: null,
       endShow1: null,
