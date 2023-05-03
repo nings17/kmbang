@@ -166,7 +166,7 @@ window.__require = function e(t, n, o) {
             c = t - n >= 50 ? 50 : t - n;
           e.node.runAction(cc.sequence(cc.callFunc(function () {
             o >= c - 1 ? e.string = t : (n++, e.string = n), o++
-          }), cc.delayTime(.02)).repeat(c))
+          }), cc.delayTime(.05)).repeat(c))
         }
       },
       openUIAni: function (e, t, n, o) {
